@@ -1,0 +1,106 @@
+body{
+    margin:0;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.model-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.model{
+width: 450px;
+
+background-color: white;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.hero{
+    width: 450px;
+    border-radius: 20px 20px 0px 0px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    margin: 20px 64px;
+
+}
+.text{
+    color: #808080;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+#p-name::after{
+    content: "$59.99/year";
+    display: flex;
+    color: #8a8ea3;
+    margin-top: 6px;
+}
+.plans{
+    display: flex;
+    background-color: #f8f8ff;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.plan-name{
+    display: flex;
+    align-items: center;
+gap: 10px;
+font-weight: 600;
+}
+.plans button{
+    border: none;
+    background: none;
+    color: #4f42b7;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.pay-btn{
+    color: white;
+    display: block;
+    width: 100%;
+    background-color: #382ae1;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+    margin: 25px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.cancel-order{
+    border: none;
+    background: none;
+    color: #8a8ea3;
+    font-weight: 600;
+}
+@media only screen and (max-width: 768px){
+    .hero{
+        width: 350px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+.model{
+    width: 350px;
+
+    }
+    .container{
+        margin: 20px 27px;
+        
+    }
+}
